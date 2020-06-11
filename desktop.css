@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&display=swap');
+
+@font-face {
+    font-family: vazir;
+    src: url(fonts/DAVazirRegular.ttf);
+}
+
+*{
+    font-family: 'Oswald' , 'vazir' , sans-serif;
+}
+body{
+    padding:0;
+    margin:0;
+}
+.typography{
+    letter-spacing: 10px;
+    margin-top:5vh;
+    margin-bottom: 0px;
+    margin-left:5vw;
+    font-size: 48px;
+}
+.border{
+    border: 2px solid #2D2D2D;
+    height: 90vh;
+    width: 95vw;
+    position: absolute;
+    bottom:5vh;
+    left:5vh;
+}
+.top-nav{
+    display: block;
+}
+.ribbon{
+    padding:0px;
+    margin:0px;
+    margin-left:calc( 5vw - 20px);
+    background:#FFDE59;
+}
+.tag{
+    background:#2D2D2D;
+    color:white;
+    margin-left:20px;
+    padding:0px 10px 0px 10px;
+}
+ul{
+    margin: 0;
+    padding:0;
+    list-style: none;
+}
+.links{
+    position: absolute;
+    margin:auto;
+    left: 5vw;
+    top:25vh;
+    width: 30vw;
+}
+.links li a{
+    padding:5px;
+    font-size: 20px;
+    text-align: center;
+    background:#2D2D2D;
+    color:white;
+    margin:auto;
+    margin-bottom:18px;
+    display: block;
+    text-decoration: none;
+}
+
+.image img{
+display: block;
+height: 90vh;
+position: absolute;
+right:5vw;
+z-index: 100;
+}
